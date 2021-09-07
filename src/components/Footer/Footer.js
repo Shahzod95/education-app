@@ -29,7 +29,7 @@ const Footer = () => {
               </p>
               <div className="footer_contact">
                 <p>
-                  <FiPhoneCall /> 1-677-124-44227
+                  <FiPhoneCall /> +998907777777
                 </p>
                 <p>
                   <BiTimeFive /> Mon - Sat 8.00 - 18.00
@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__all_">
                   <span>OFFICE</span>
-                  <span>123 6th st. melbourne, fl 32904</span>
+                  <span>Uzbekistan Navoi</span>
                 </div>
               </div>
 
@@ -99,7 +99,7 @@ const Footer = () => {
         <Container className="footer terms__footer">
           <Row>
             <Col sm={12} md={6}>
-              © Copyright 2019. All Rights Reserved By Gajen
+              © Copyright 2021. All Rights Reserved By Shakhzod
             </Col>
             <Col sm={12} md={6} className="terms__col">
               <Link to="/terms" className='social__link'>TERMS OF USER</Link> |
@@ -114,5 +114,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// home, pages, , events, Features,  about, contact

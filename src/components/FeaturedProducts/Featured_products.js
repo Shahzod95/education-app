@@ -26,7 +26,6 @@ const FeaturedProducts = () => {
     <>
       <Container className="featured__container">
         <Row>
-          {/* // {console.log(products) */}
           <Col sm={12} md={6}>
             <h1 className="featured__h1">Popular Online Courses</h1>
           </Col>

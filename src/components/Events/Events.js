@@ -1,7 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Event from "../../data/Events";
@@ -14,10 +12,6 @@ function Events() {
     <>
       <Container className="events__hero">
         <h2 className="testimonial__header">Events</h2>
-        {/* <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima
-          corporis quas accusantium? Doloremque ea eaque animi labore et soluta.
-        </p> */}
       </Container>
       <CardGroup className="events">
         {Event.map(({ image, title, time, place, description }) => {

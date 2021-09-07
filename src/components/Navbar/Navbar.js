@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="nav-center">
           <Link to="/">
             <div className="nav-header">
-              <img src={logo} className="nav-logo" alt="" />
+              <h2 className="nav-logo" >Shakh</h2>
               <button className="btn toggle-btn" onClick={openSidebar}>
                 <FaBars />
               </button>

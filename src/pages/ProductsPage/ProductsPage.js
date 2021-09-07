@@ -13,7 +13,6 @@ const ProductsPage = () => {
       <Wrapper>
         <Container className="products__page__container">
           <Row>
-            {/* <div className="section-center products"> */}
             <Col sm={12} md={2}>
               <Filter />
             </Col>

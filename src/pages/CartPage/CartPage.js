@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { useCartContext } from '../../context/Cart_context'
 import { Link } from 'react-router-dom'
-// import { CartContent, PageHero } from '../components'
 import PageHero from '../../components/PageHero/PageHero'
 import CartContent from '../../components/CartContent/CartContent'
 
